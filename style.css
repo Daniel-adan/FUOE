@@ -1,0 +1,80 @@
+body {
+    background-color: #131111;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px;
+    border: dotted;  
+}
+header {
+    background-color: black;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items:left;
+    
+}
+.logo {
+    font-size: 10px;
+    font-weight:bold;
+}
+.user-info {
+     display: flex;
+}
+main {
+    color: white;
+    padding: 30px;
+    
+}
+.stats {
+    display: flex;
+    text-align: left;
+}
+.stat {
+    text-align: center;
+    padding: 5px;   
+}
+
+.stat h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.stats p{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.profile{
+    background-color: aqua;
+}
+.user-info .img{
+padding: 15px;
+}
+.img img{
+    width: 55px;
+    height: 55px;
+}
+.cont h2{
+    margin-bottom: 0;
+}
+.cont p{
+    margin-top: 0;
+}
+.quest{
+    display: flex;
+}
+.quest-img{
+    padding: 5px;
+}
+input{
+    width: 850px;
+    padding: 20px;
+    border-radius: 25px;
+}
+button{
+    padding: 5px 30px;
+    border-radius: 25px;
+}
+.page a, .h1 a, .h2 a, .h3 a, .h4 a{
+    text-decoration: none;
+    color: #fff;
+}
