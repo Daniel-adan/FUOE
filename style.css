@@ -13,6 +13,26 @@ header {
     align-items:left;
     
 }
+.container{
+    position: relative;
+}
+.image-right{
+    position: absolute;
+    right: -10px;
+    top: 200px;
+    width: 30%;
+}
+.image-right img{
+    height: 400px;
+}
+.image-left{
+    position: absolute;
+    left: -90px;
+    bottom: -250px;
+}
+.image-left img{
+    height: 400px;
+}
 .logo {
     font-size: 10px;
     font-weight:bold;
@@ -23,7 +43,7 @@ header {
 main {
     color: white;
     padding: 30px;
-    
+    position: absolute;
 }
 .stats {
     display: flex;
